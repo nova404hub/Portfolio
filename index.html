@@ -1,692 +1,137 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--=============== REMIXICONS===============-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-      rel="stylesheet"  >
-
-    <!--=============== Swiper CSS ===============-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
-
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/skins/color-1.css">
-
-    <!--=============== Skin Colors ===============-->
-    <link
-      rel="stylesheet"
-      href="assets/css/skins/color-1.css"
-      class="alternate-style"
-      title="color-1"
-      disabled/>
-    <link
-      rel="stylesheet"
-      href="assets/css/skins/color-2.css"
-      class="alternate-style"
-      title="color-2"
-      disabled/>
-
-    <title> ཐི༏ཋྀ󠀮 Yza│CS Sophomore</title>
-  </head>
-  <body>
-    <!--=============== Header ===============-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li>
-              <a href="#home" class="nav__link active-link">YZA</a>
-            </li>
-
-            <li>
-              <a href="#services" class="nav__link">STACK</a>
-            </li>
-
-            <li>
-              <a href="#resume" class="nav__link">BACKGROUND</a>
-            </li>
-
-            <li>
-              <a href="#portfolio" class="nav__link">PORTFOLIO</a>
-            </li>
-
-            <li>
-              <a href="#blog" class="nav__link">BLOGS</a>
-            </li>
-
-            <li>
-              <a href="#contact" class="nav__link">CONTACT</a>
-            </li>
-          </ul>
-
-          <div class="nav__close" id="nav-close">
-            <i class="ri-close-fill"></i>
-          </div>
-          </div>
-
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-menu-fill"></i>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jonalene Ryza Abundo — Computer Science student focused on software quality assurance and development. Explore academic projects, testing scenarios, and QA contributions.">
+  <meta name="theme-color" content="#f8f9f6">
+  <title>Jonalene Ryza Abundo | Software QA &amp; Development</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script defer src="assets/js/common.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="container navigation" aria-label="Primary navigation">
+      <a class="wordmark" href="#home" aria-label="Jonalene Ryza Abundo, home">JRA<span>.</span></a>
+      <ul class="navigation-links">
+        <li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li><li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main" class="container">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div>
+        <h1 id="hero-title">Jonalene Ryza Abundo</h1>
+        <p class="student">Computer Science Student</p>
+        <p class="hero-role">Software Quality Assurance &amp; Development</p>
+        <p class="hero-description">Computer Science student with hands-on experience developing and testing academic software systems. My work includes functional testing, negative and edge-case validation, defect investigation, regression verification, and user-focused software testing.</p>
+        <div class="actions">
+          <a class="button" href="#projects">View Projects <span aria-hidden="true">↘</span></a>
+          <a class="button button-secondary" href="assets/img/Yza_CV.pdf" download>Download Resume <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="https://www.linkedin.com/in/jonalene-abundo-a9628832b/" target="_blank" rel="noopener noreferrer" aria-label="Jonalene Abundo on LinkedIn (opens in new tab)">LinkedIn ↗</a>
+          <a class="text-link" href="https://github.com/nova-vltn" target="_blank" rel="noopener noreferrer" aria-label="Jonalene Abundo on GitHub (opens in new tab)">GitHub ↗</a>
         </div>
-      </nav>
-      
-
-    </header>
-
-    <!--=============== Main ===============-->
-    <main class="main">
-      <!--=============== Home ===============-->
-      <section class="home" id="home">
-        <section class="home" id="home">
-          <div class="home__container container grid">
-            <img src="assets/img/profile.jpg" alt="" class="home__img" />
-            <div class="home__data">
-              <h1 class="home__name">Jonalene Ryza Abundo</h1>
-              <p class="home__work">Computer Science Sophomore</p>
-              <dl class="home__list">
-                <dt>AGE:</dt>
-                <dd>19</dd>
-                <dt>PHONE:</dt>
-                <dd>+63 999-577-8937</dd>
-                <dt>EMAIL:</dt>
-                <dd>abundojonalene@gmail.com</dd>
-                <dt>ADDRESS:</dt>
-                <dd>2234 UNIT 4E Beata St. Pandacan, Manila</dd>
-              </dl>
-              <div class="home__socials">
-                <a 
-                  href="https://www.instagram.com/_jln.ab/" 
-                  target="_blank" 
-                  class="home__social-link">
-                  <i class="ri-instagram-fill"></i>
-                </a>
-                <a 
-                  href="https://www.linkedin.com/in/jonalene-abundo-a9628832b/" 
-                  target="_blank" 
-                  class="home__social-link">
-                  <i class="ri-linkedin-box-fill"></i>
-                </a>
-                <a 
-                  href="https://www.facebook.com/jln.abundo" 
-                  target="_blank" 
-                  class="home__social-link">
-                  <i class="ri-facebook-box-fill"></i>
-                </a>
-              </div>              
-            </div>
-          </div>
-        </section>
-        
-      </section>
-
-      <!--=============== YZA ===============-->
-      <section class="hello section container">
-        <h2 class="section__title"> <b><i>Hey! It's Yza</i></b></h2>
-
-        <p class="hello__details text-lg">
-          I am a sophomore student passionate about coding and technology. A highly motivated individual willing to take part in skilled organizations with a positive working relationship with partners and a proactive workplace conditions
-          with technology to assist in technical team administration. <br><br>When I'm not coding, I enjoy reading about emerging technologies, minimalism, and startup culture. With the different avenues of learning programming languages, 
-          there are many platforms available that enrich the learning experience of students like me in the Computer Science field.  
-        </p>
-        <a href="assets/img/Yza_CV.pdf" class="button button--flex text-sm">
-          <i class="ri-download-line"></i> DOWNLOAD CV</a>
-      </section>
-
-      <!--=============== Skills ===============-->
-      <section class="services section container" id="services">
-        <h2 class="section__title">Skill Stack</h2>
-          <div class="services__container grid">
-            
-            <div class="services__item">
-              <div class="icon__box">
-                <img
-                  src="assets/img/leader.png"
-                  alt=""
-                  class="services__icon"
-                />
-                <div class="services__dot">
-                  <span class="dot"></span>
-                </div>
-              </div>
-              <h3 class="services__title text-lg">LEADERSHIP EXPERIENCE</h3>
-              <p class="services__detail">Exhibits strong leadership skills throughout group projects and performance tasks. Provides a system of delegating tasks among members, sets specific goals for the team, tracks progress by consulting mentors, and reflects on feedback given by instructors.
-              </p>
-
-            </div>
-            <div class="services__item">
-              <div class="icon__box">
-                <img
-                  src="assets/img/comms.png"
-                  alt=""
-                  class="services__icon"
-                />
-                <div class="services__dot">
-                  <span class="dot"></span>
-                </div>
-              </div>
-
-              <h3 class="services__title text-lg">EFFECTIVE COMMUNICATOR</h3>
-              <p class="services__detail">Possesses excellent public-speaking skills and academic writing. Has honed herself as a professional who is both confident and articulate in communicating with others.</p>
-            </div>
-            <div class="services__item">
-              <div class="icon__box">
-                <img
-                  src="assets/img/thinker.png"
-                  alt=""
-                  class="services__icon"
-                />
-                <div class="services__dot">
-                  <span class="dot"></span>
-                </div>
-              </div>
-
-              <h3 class="services__title text-lg">STRATEGIC THINKER</h3>
-              <p class="services__detail">Assesses conflicts by looking for solutions and reflecting on past faults. Efficiently organizes ideas and evaluates significant information for the search of resolutions.</p>
-            </div>
-            <div class="services__item">
-              <div class="icon__box">
-                <img
-                  src="assets/img/assertive.png"
-                  alt=""
-                  class="services__icon"
-                />
-                <div class="services__dot">
-                  <span class="dot"></span>
-                </div>
-              </div>
-
-              <h3 class="services__title text-lg">ASSERTIVENESS</h3>
-              <p class="services__detail">Practices assertive behavior in the face of disagreements. Understands the process of seeing others' perspectives and conveys her argument without any emotional attachment.</p>
-            </div>
-            <div class="services__item">
-              <div class="icon__box">
-                <img
-                  src="assets/img/paint-palette.png"
-                  alt=""
-                  class="services__icon"
-                />
-                <div class="services__dot">
-                  <span class="dot"></span>
-                </div>
-              </div>
-
-              <h3 class="services__title text-lg">INQUISITIVE</h3>
-              <p class="services__detail">Keeps a curious mind at hand in the search for answers. She does not falter in searching for improvements and acquiring facts essential for any obligation.</p>
-            </div>
-            <div class="services__item">
-              <div class="icon__box">
-                <img
-                  src="assets/img/verified.png"
-                  alt=""
-                  class="services__icon"
-                />
-                <div class="services__dot">
-                  <span class="dot"></span>
-                </div>
-              </div>
-
-              <h3 class="services__title text-lg">RELIABILITY</h3>
-              <p class="services__detail">Consistently delivers results with a steadfast commitment to meeting deadlines and exceeding expectations. Known for effectively managing tasks and responsibilities.</p>
-            </div>
-          </div>
-        
-      </section>
-
-      <!--=============== Background ===============-->
-      <section class="section container" id="resume">
-        <h2 class="section__title">Background</h2>
-        
-        <div class="resume__container">
-            <div class="resume__column">
-                <h3 class="resume__title text-sm">EDUCATION</h3>
-                
-                <div class="resume__item">
-                    <h3 class="resume__subtitle text-sm">PAMANTASAN NG LUNGSOD NG MAYNILA</h3>
-                    <p class="resume__date text-sm">2023 - PRESENT</p>
-                    <p class="resume__description text-lg">Freshman Year - Dean's Lister<br></p>
-                </div>
-    
-                <div class="resume__item">
-                    <h3 class="resume__subtitle text-sm">ADAMSON UNIVERSITY</h3>
-                    <p class="resume__date text-sm">2021 - 2023</p>
-                    <p class="resume__description text-lg">Grade 12 - With High Honors<br></p>
-                </div>
-    
-                <div class="resume__item">
-                    <h3 class="resume__subtitle text-sm">PACO CATHOLIC SCHOOL</h3>
-                    <p class="resume__date text-sm">2019 - 2020</p>
-                    <p class="resume__description text-lg">Grade 9 - With Honors </p>
-                </div>
-            </div>
-    
-            <div class="resume__column">
-                <h3 class="resume__title text-sm">EXPERIENCE</h3>
-                
-                <div class="resume__item">
-                    <h3 class="resume__subtitle text-sm">AdU-SHS Supreme Student Government</h3>
-                    <p class="resume__date text-sm">2022-2023</p>
-                    <p class="resume__description text-lg">
-                        Engaged in the school's student body council by organizing events,
-                        providing seminars, and catering extra-curricular activities for the student body while balancing academics
-                    </p>
-                </div>
-    
-                <div class="resume__item">
-                    <h3 class="resume__subtitle text-sm">Center for Innovative Learning (CIL)</h3>
-                    <p class="resume__date text-sm">2023</p>
-                    <p class="resume__description text-lg">
-                        Student Trainee. The training program at the Center for Innovative Learning was exceptional. Throughout our internship, we were given a variety of tasks that were both challenging and educational.
-                    </p>
-                </div>
-    
-                <div class="resume__item">
-                    <h3 class="resume__subtitle text-sm">Google Developer Club - PLM</h3>
-                    <p class="resume__date text-sm">2023-2024</p>
-                    <p class="resume__description text-lg">A present Noogler learning to expand networks and broaden knowledge</p>
-                </div>
-            </div>
-        </div>
+      </div>
+      <aside class="hero-contact" aria-label="Location and email">
+        <p>Metro Manila, Philippines</p>
+        <a href="mailto:abundojonalene@gmail.com">abundojonalene@gmail.com</a>
+      </aside>
     </section>
 
-      <!--=============== Expertise ===============-->
-      <section class="section container" id="expertise">
-        <h2 class="section__title">Expertise</h2>
-    
-        <div class="skills__container grid">
-            <!-- Left Side - Back End Platforms -->
-            <div class="skills__content">
-                <h3 class="skills__title text-sm">BACK END PLATFORMS</h3>
-    
-                <div class="skills__list grid">
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <p class="skills__name text-sm">MySQL Workbench</p>
-                            <span class="skills__number text-sm">50%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage" style="width: 50%"></span>
-                        </div>
-                    </div>
-    
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <p class="skills__name text-sm">Visual Studio Code</p>
-                            <span class="skills__number text-sm">50%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage" style="width: 50%"></span>
-                        </div>
-                    </div>
-    
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <p class="skills__name text-sm">Netbeans IDE</p>
-                            <span class="skills__number text-sm">70%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage" style="width: 70%"></span>
-                        </div>
-                    </div>
-    
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <p class="skills__name text-sm">Oracle SQL Developer</p>
-                            <span class="skills__number text-sm">50%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage" style="width: 50%"></span>
-                        </div>
-                    </div>
-    
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <p class="skills__name text-sm">Dev C++</p>
-                            <span class="skills__number text-sm">40%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage" style="width: 40%"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Right Side - Front End Platforms -->
-            <div class="skills__content">
-                <h3 class="skills__title text-sm">FRONT END PLATFORMS</h3>
-    
-                <div class="skills__list grid">
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <p class="skills__name text-sm">Figma</p>
-                            <span class="skills__number text-sm">20%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage" style="width: 20%"></span>
-                        </div>
-                    </div>
-    
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <p class="skills__name text-sm">WordPress</p>
-                            <span class="skills__number text-sm">20%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage" style="width: 20%"></span>
-                        </div>
-                    </div>
-    
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <p class="skills__name text-sm">Lucidchart</p>
-                            <span class="skills__number text-sm">50%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage" style="width: 50%"></span>
-                        </div>
-                    </div>
-    
-                    <div class="skills__data">
-                        <div class="skills__titles">
-                            <p class="skills__name text-sm">Draw.io</p>
-                            <span class="skills__number text-sm">60%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage" style="width: 60%"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="section split-section" id="about" aria-labelledby="about-title">
+      <h2 id="about-title" class="section-label">About</h2>
+      <p class="about-copy">My Computer Science background helps me approach software from both developer and tester perspectives. Through academic projects, I develop and test application workflows with a focus on software quality and reliability: reproducing defects, validating expected behavior, and checking the edge cases that can affect users.</p>
     </section>
-    
 
-      <!--=============== Projects ===============-->
-      <section class="work section container" id="portfolio">
-        <h2 class="section__title">Projects</h2>
-      
-        <div class="project__categories">
-          <button class="category__btn text-xs active-work" data-filter="all">ALL</button>
-          <button class="category__btn text-xs" data-filter=".app">HTML</button>
-          <button class="category__btn text-xs" data-filter=".cpp">C++</button>
-          <button class="category__btn text-xs" data-filter=".c">C</button>
-          <button class="category__btn text-xs" data-filter=".java">JAVA</button>
-          <button class="category__btn text-xs" data-filter=".sql">SQL</button>
-        </div>
-      
-        <div class="projects__container grid">
-          <!-- Existing HTML Project -->
-          <div class="project__item grid mix app">
-            <img src="assets/img/project-1.png" alt="" class="project__img">
-            <div class="project__data">
-              <h3 class="project__title text-lg">Works</h3>
-              <p class="project__description">
-                I crafted basic HTML websites as part of our first assignments.
-              </p>
-              <h4 class="project__stack text-xs">TECH STACK:</h4>
-              <ul class="tags text-sm">
-                <li>HTML</li>
-              </ul>
-              <a href="https://github.com/nova-vltn/HTML-Codes.git" class="project__link text-sm"> ↠compiled projects</a>
-            </div>
-          </div>
-      
-          <!-- C Project -->
-          <div class="project__item grid mix c">
-            <img src="assets/img/project-3.png" alt="" class="project__img">
-            <div class="project__data">
-              <h3 class="project__title text-lg">Works</h3>
-              <p class="project__description">
-                I worked on various C projects, including algorithms and data structure implementations as part of my assignments.
-              </p>
-              <h4 class="project__stack text-xs">TECH STACK:</h4>
-              <ul class="tags text-sm">
-                <li>C</li>
-              </ul>
-              <a href="https://github.com/nova-vltn/C-Codes.git" class="project__link text-sm">↠compiled projects</a>
-            </div>
-          </div>
-      
-          <!-- C++ Project -->
-          <div class="project__item grid mix cpp">
-            <img src="assets/img/project-2.png" alt="" class="project__img">
-            <div class="project__data">
-              <h3 class="project__title text-lg">Works</h3>
-              <p class="project__description">
-                I created a set of C++ projects focused on object-oriented programming, including classes and inheritance.
-              </p>
-              <h4 class="project__stack text-xs">TECH STACK:</h4>
-              <ul class="tags text-sm">
-                <li>C++</li>
-              </ul>
-              <a href="https://github.com/nova-vltn/C---Codes.git" class="project__link text-sm">↠compiled projects</a>
-            </div>
-          </div>
-      
-          <!-- Java Project -->
-          <div class="project__item grid mix java">
-            <img src="assets/img/project-4.png" alt="" class="project__img">
-            <div class="project__data">
-              <h3 class="project__title text-lg">Works</h3>
-              <p class="project__description">
-                I developed Java applications that include file handling, object-oriented programming, and GUI-based projects.
-              </p>
-              <h4 class="project__stack text-xs">TECH STACK:</h4>
-              <ul class="tags text-sm">
-                <li>Java</li>
-              </ul>
-              <a href="https://github.com/nova-vltn/Java-Codes.git" class="project__link text-sm">↠compiled projects</a>
-            </div>
-          </div>
-      
-          <!-- SQL Project -->
-          <div class="project__item grid mix sql">
-            <img src="assets/img/project-5.png" alt="" class="project__img">
-            <div class="project__data">
-              <h3 class="project__title text-lg">Works</h3>
-              <p class="project__description">
-                I implemented database management projects using SQL, focusing on queries, data modeling, and database normalization.
-              </p>
-              <h4 class="project__stack text-xs">TECH STACK:</h4>
-              <ul class="tags text-sm">
-                <li>SQL</li>
-              </ul>
-              <a href="https://github.com/nova-vltn/SQL-Codes.git" class="project__link text-sm">↠compiled projects</a>
-            </div>
-          </div>
-      
-        </div>
-      </section>
-      
-
-      <!--=============== Testimonials ===============-->
-      <section class="testimonials section">
-          <div class="testimonial__bg">
-            <div class="testimonial__icon">
-              <i class="ri-double-quotes-r"></i>
-            </div>
-
-            <div class="swiper testimonial__container container">
-              <div class="swiper-wrapper">
-              <div class="swiper-slide testimonial__item">
-                <h3 class="author__name text-lg">Mr. Daniel Hardy Camacho</h3>
-                <p class="author__project">PLM CSS Auditor | GDSC Data Googler</p>
-                <div class="ruler"></div>
-                <p class="testimonial__description text-lg">
-                  As someone who has worked alongside Jona, I can testify that she is of great character-- brimming with potential and talent. Her leadership skills, matched with her reliability and dedication to learning prove to be invaluable. She's an excellent team player who always strives to bring out the best out of everyone she works with.</p>
-              </div>
-
-              <div class="swiper-slide testimonial__item">
-                <h3 class="author__name text-lg">Prof. Vivien Agustin</h3>
-                <p class="author__project"> Associate Dean, Computer Science Faculty, CISTM</p>
-                <div class="ruler"></div>
-                <p class="testimonial__description text-lg">I have had the pleasure of knowing Jonalene Abundo as her former instructor. Throughout her time in my class, she consistently demonstrated a remarkable level of dedication, academic excellence, and exemplary character. She excelled in her studies, consistently producing outstanding work and achieving exceptional results.</p>
-              </div>
-
-              <div class="swiper-slide testimonial__item">
-                <h3 class="author__name text-lg">Mr. Randolph Palafox</h3>
-                <p class="author__project">Students Activities Office Adviser, Adamson University</p>
-                <div class="ruler"></div>
-                <p class="testimonial__description text-lg">As the previous Supreme Student Government Adviser, I have also had the opportunity to observe Jonalene closely in her role as the STEM-Technology President. She has exhibited exemplary leadership qualities, effectively organizing various events and demonstrating a remarkable ability to balance her academic responsibilities with her organizational commitments. Despite her busy schedule, Jonalene has proven to be a reliable and trustworthy student, always willing to lend a helping hand to her peers and support them in any way possible.</p>
-              </div>
-          </div>
-
-          <div class="swiper-button-next">
-            <img src="assets/img/arrow-next.svg" alt="">
-          </div>
-          <div class="swiper-button-prev">
-          <img src="assets/img/arrow-prev.svg" alt="">  
-          </div>
-          <div class="swiper-pagination">          
-        </div>
-      </section>
-
-      <!--=============== Blog ===============-->
-      <section class="blog section container" id="blog">
-        <h2 class="section__title">Other Works</h2>
-          
-        <div class="posts__container grid">
-            <a href="blog_details.html"  class="post__card">
-              <img src="assets/img/blog-1.png" alt="" class="post__img">
-              
-              <div class="post__content">
-                <p class="post__date text-xs">June 5, 2024</p>
-                <h3 class="post__title text-sm">Mastering Data Structures</h3>
-                <p class="post__description text-sm">"Last year, we delved into Data Structures and Algorithms (DSA), learning about singly and doubly linked lists, queues, and stacks."</p>
-              </div>
-            </a>
-
-            <a href="blog_details2.html"  class="post__card">
-              <img src="assets/img/blog-2.png" alt="" class="post__img">
-              
-              <div class="post__content">
-                <p class="post__date text-xs">October 13,2024</p>
-                <h3 class="post__title text-sm">Database Challenges</h3>
-                <p class="post__description text-sm">"This year, we gained more exposure to database development, utilizing Oracle SQL Developer to build a comprehensive banking system."</p>
-              </div>
-            </a>
-
-            <a href="blog_details3.html" class="post__card">
-              <img src="assets/img/blog-3.png" alt="" class="post__img">
-              
-              <div class="post__content">
-                <p class="post__date text-xs">May 8, 2024</p>
-                <h3 class="post__title text-sm">Enrollment System</h3>
-                <p class="post__description text-sm">""My team and I developed a streamlined enrollment system designed to simplify the student registration process.""</p>
-              </div>
-            </a>
-          </div>
-        
-        
-      </section>
-
-      <!--=============== Contact ===============-->
-      <section class="contact section" id="contact">
-        <div class="contact__content container">
-          <h2 class="section__title">Get in touch, let's talk.</h2>
-          
-          <div class="contact__container grid">
-            <div class="contact__info">
-              <dl class="contact__list">
-                <dt>Phone:</dt>
-                <dd>+63 999 577 8937</dd>
-                <dt>Viber:</dt>
-                <dd>+63 999 577 8937</dd>
-                <dt>Email:</dt>
-                <dd>abundojonalene@gmail.com</dd>
-              </dl>             
-            </div>
-
-            <div class="contact__form">
-              <p class="contact__form-title">Feel free to send me an email:</p>
-              
-              <form action="" id="contact-form">
-                <div class="contact__input-div">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Your name"
-                    class="contact__input"
-                    id="contact-name"
-                  />
-                </div>
-
-                <div class="contact__input-div">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Your e-mail"
-                    class="contact__input"
-                    id="contact-email"
-                  />
-                </div>
-
-                <div class="contact__input-div">
-                    <textarea
-                      name="message"
-                      placeholder="Type the message here"
-                      class="contact-input textarea"
-                      id="message"
-                      cols="30"
-                      rows="10"
-                    ></textarea>
-                  </div>
-
-                  <p class="contact__message text-sm" id="contact-message">
-                    Message
-                  </p>
-
-                  <button type="submit" class="button contact__button">
-                    SEND
-                  </button>
-                  </form>
-
-                  <p class="footer__copy">
-                    &copy; 2024 Jonalene Abundo. All Rights Reserved
-                  </p>
-                  </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!--=============== Style Switcher ===============-->
-    <div class="style__switcher">
-      <div class="style__switcher-toggler">
-        <i class="ri-settings-4-fill"></i>
+    <section class="section split-section" id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title" class="section-label">Skills</h2>
+      <div class="skills-grid">
+        <div><h3>Quality Assurance</h3><ul class="plain-list qa-list">
+          <li>Manual Testing</li><li>Functional Testing</li><li>Regression Testing</li><li>Negative Testing</li><li>Boundary / Edge-Case Testing</li><li>Test Case Design</li><li>Defect Investigation</li><li>Validation Testing</li><li>UI Testing</li><li>Requirements Validation</li><li>Debugging and Verification</li>
+        </ul></div>
+        <div><h3>Technical</h3><ul class="plain-list"><li>HTML · CSS · JavaScript</li><li>Java · C · C++</li><li>SQL</li><li>Git · GitHub</li></ul></div>
+        <div><h3>Tools</h3><ul class="plain-list"><li>Visual Studio Code</li><li>MySQL Workbench</li><li>Oracle SQL Developer</li><li>Figma</li></ul></div>
       </div>
+    </section>
 
-      <div class="colors">
-        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-        
+    <section class="section split-section" id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title" class="section-label">Experience<br> &amp; Education</h2>
+      <div class="background-list">
+        <article class="background-entry"><p class="entry-date">2023 — Present</p><div><h3>Pamantasan ng Lungsod ng Maynila</h3><p>Computer Science student · Dean’s Lister, freshman year</p></div></article>
+        <article class="background-entry"><p class="entry-date">2023 — 2024</p><div><h3>Google Developer Club — PLM</h3><p>Student involvement as a Noogler, expanding technical knowledge and peer connections.</p></div></article>
+        <article class="background-entry"><p class="entry-date">2023</p><div><h3>Center for Innovative Learning</h3><p>Student trainee · Learning through assigned tasks in a structured training program.</p></div></article>
       </div>
-    </div>
+    </section>
 
-    <!--=============== Mixitup ===============-->
-    <script src="assets/js/mixitup.min.js"></script>
+    <section class="section" id="qa-experience" aria-labelledby="qa-title">
+      <div class="section-intro"><h2 id="qa-title" class="section-label">Quality Assurance Experience</h2><p>Through academic software-development projects, I regularly tested application behavior, reproduced defects, validated fixes, and evaluated edge cases throughout implementation.</p></div>
+      <div class="capabilities">
+        <article><h3>Test Design</h3><p>Designed positive, negative, boundary, and edge-case inputs based on expected system behavior.</p></article>
+        <article><h3>Defect Investigation</h3><p>Reproduced unexpected behavior, isolated likely failure conditions, and documented observable errors for correction.</p></article>
+        <article><h3>Regression Verification</h3><p>Retested affected workflows after implementation changes to confirm fixes and check for obvious regressions.</p></article>
+        <article><h3>User-Focused Validation</h3><p>Evaluated forms, validation feedback, navigation, data presentation, and application workflows from the user perspective.</p></article>
+      </div>
+    </section>
 
-    <!--=============== Swiper Js ===============-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js">
-    </script>
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="section-intro"><h2 id="projects-title" class="section-label">Featured Projects</h2><p>Selected software-development projects highlighting hands-on testing, validation, and defect investigation.</p></div>
+      <article class="case-study" aria-labelledby="portia-title">
+        <div class="project-layout">
+          <figure class="project-figure"><a href="assets/img/portia-compiler.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size PORTIA compiler screenshot (new tab)"><img src="assets/img/portia-compiler.png" alt="PORTIA compiler interface showing source code and analysis output" width="1405" height="824" loading="lazy"></a><figcaption>PORTIA interface · Source input and analysis output</figcaption></figure>
+          <div class="project-copy">
+            <p class="eyebrow">Academic project · Development + QA</p><h3 id="portia-title">PORTIA Compiler</h3>
+            <p>PORTIA is an academic compiler project implementing lexical, syntax, and semantic analysis. Testing focused on validating accepted and rejected source inputs, confirming error detection, and verifying clear diagnostic feedback.</p>
+            <p class="contribution"><strong>Contribution</strong> Software development and academic testing, including input validation and diagnostic verification.</p>
+            <h4>Testing Focus</h4><ul class="testing-list"><li>Valid and invalid token input testing</li><li>Lexical error detection</li><li>Syntax error validation</li><li>Malformed delimiter cases</li><li>Invalid literal testing</li><li>Line and column diagnostic verification</li><li>Negative and edge-case testing</li><li>Regression verification after implementation changes</li></ul>
+            <p class="technology"><strong>Technologies</strong> Compiler analysis: lexical, syntax, and semantic stages. Implementation stack not specified.</p>
+            <a class="text-link" href="https://portia-compiler.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open PORTIA Compiler live demo (new tab)">Live Demo <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <details class="qa-evidence"><summary>View QA Evidence <span class="evidence-context">PORTIA · Error-path validation</span></summary>
+          <div class="evidence-content"><p>Malformed source input was intentionally submitted to verify that PORTIA rejected invalid syntax or lexical structure and correctly surfaced diagnostic information identifying the error location.</p>
+            <div class="evidence-grid">
+              <figure><a href="assets/img/portia-lexical-error.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size PORTIA lexical error screenshot (new tab)"><img src="assets/img/portia-lexical-error.png" alt="PORTIA lexical analyzer reporting invalid input with line and column diagnostics" loading="lazy"></a><figcaption>Negative-input scenario · Lexical diagnostics</figcaption></figure>
+              <figure><a href="assets/img/portia-syntax-%20error.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size PORTIA syntax error screenshot (new tab)"><img src="assets/img/portia-syntax-%20error.png" alt="PORTIA syntax analyzer displaying an invalid source input error" loading="lazy"></a><figcaption>Malformed-input scenario · Syntax validation</figcaption></figure>
+            </div><p class="evidence-note">These screenshots show intentional test scenarios and error-path validation, rather than a record of production defects.</p>
+          </div>
+        </details>
+      </article>
+      <article class="case-study" aria-labelledby="gracewell-title">
+        <div class="project-layout">
+          <figure class="project-figure"><a href="assets/img/gracewell-home.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size Gracewell Nexus employee records screenshot (new tab)"><img src="assets/img/gracewell-home.png" alt="Gracewell Nexus employee records with navigation to attendance and salary workflows" width="1789" height="879" loading="lazy"></a><figcaption>Gracewell Nexus · Employee records and workflow navigation</figcaption></figure>
+          <div class="project-copy">
+            <p class="eyebrow">Academic project · Functional QA</p><h3 id="gracewell-title">Gracewell Nexus HRIS</h3>
+            <p>Gracewell Nexus is an academic Human Resources Information System supporting employee information and workforce-related workflows. Testing focused on functional behavior, form validation, error handling, and user-facing workflows.</p>
+            <p class="contribution"><strong>Contribution</strong> Collaborative academic project — this case study highlights my software development and testing contributions.</p>
+            <h4>Testing Focus</h4><ul class="testing-list"><li>Authentication flow testing</li><li>Employee profile verification</li><li>Attendance workflow testing</li><li>Salary information display validation</li><li>File or profile upload behavior</li><li>Form and data-entry validation</li><li>Error-state handling</li><li>QR-based employee identification workflow</li><li>Regression testing after implementation changes</li></ul>
+            <p class="technology"><strong>Technologies</strong> Web-based HRIS with QR-based employee identification. Implementation stack not specified.</p>
+            <a class="text-link" href="https://gracewell-nexus.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Gracewell Nexus HRIS live demo (new tab)">Live Demo <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <details class="qa-evidence"><summary>View QA Evidence <span class="evidence-context">Gracewell Nexus · Workflow validation</span></summary>
+          <div class="evidence-content"><p>Tested application failure paths and verified that unsuccessful operations surfaced visible feedback instead of failing silently.</p>
+            <figure class="supporting-image"><a href="assets/img/gracewell-login.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size Gracewell Nexus login screenshot (new tab)"><img src="assets/img/gracewell-login.png" alt="Gracewell Nexus HRIS welcome and login interface" loading="lazy"></a><figcaption>Authentication entry point · Supporting interface imagery</figcaption></figure>
+            <p class="evidence-note">The login screenshot provides workflow context; it does not show a failed operation or a completed test record.</p>
+          </div>
+        </details>
+      </article>
+    </section>
 
-    <!--=============== Email Js ===============-->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
-
-    <!--=============== Js ===============-->
-    <script src="assets/js/main.js"></script>
-
-    <!--=============== Common ===============-->
-    <script src="assets/js/common.js"></script>
-  </body>
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div><h2 id="contact-title" class="section-label">Let’s Connect</h2><p class="contact-intro">For entry-level Software QA / QA Analyst opportunities, get in touch.</p><a class="contact-email" href="mailto:abundojonalene@gmail.com">abundojonalene@gmail.com</a><div class="actions"><a class="text-link" href="https://www.linkedin.com/in/jonalene-abundo-a9628832b/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a class="text-link" href="https://github.com/nova-vltn" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div>
+      <form id="contact-form">
+        <div class="form-row"><div><label for="contact-name">Name</label><input type="text" id="contact-name" name="name" autocomplete="name" required maxlength="150"></div><div><label for="contact-email">Email</label><input type="email" id="contact-email" name="email" autocomplete="email" required maxlength="254"></div></div>
+        <label for="message">Message</label><textarea id="message" name="message" rows="4" required maxlength="5000"></textarea>
+        <p id="contact-message" role="status" aria-live="polite"></p>
+        <button type="submit" class="button">Send Message <span aria-hidden="true">↗</span></button>
+        <noscript><p>Please <a href="mailto:abundojonalene@gmail.com">email me directly</a>; this form requires JavaScript.</p></noscript>
+      </form>
+    </section>
+  </main>
+  <footer class="container site-footer"><p>© 2026 Jonalene Ryza Abundo</p><a href="#home">Back to top ↑</a></footer>
+</body>
 </html>
