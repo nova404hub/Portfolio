@@ -50,8 +50,9 @@ h1 { font-size: clamp(29px, 3.2vw, 42px); line-height: 1.15; font-weight: 650; l
 .split-section { display: grid; grid-template-columns: 175px minmax(0, 1fr); gap: 32px; }
 .section-label { font: 600 12px/1.65 ui-monospace, 'Cascadia Code', Consolas, monospace; text-transform: uppercase; letter-spacing: .09em; color: var(--accent); }
 .about-copy { max-width: 850px; }
+.about-copy p + p { margin-top: 14px; }
 h3 { font-size: 16px; font-weight: 650; line-height: 1.4; }
-.skills-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 28px; }
+.skills-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
 .plain-list { list-style: none; padding: 0; margin: 12px 0 0; color: var(--text-secondary); font-size: 14px; line-height: 1.8; }
 .qa-list { columns: 2; column-gap: 24px; }
 .qa-list li { break-inside: avoid; }
@@ -134,8 +135,7 @@ textarea { resize: vertical; min-height: 110px; }
  .hero-description { font-size: 15px; }
  .actions { gap: 16px; }
  .hero .button { padding-inline: 12px; gap: 12px; }
- .skills-grid { grid-template-columns: 1fr 1fr; gap: 24px 18px; }
- .skills-grid > :first-child { grid-column: 1 / -1; }
+ .skills-grid { grid-template-columns: 1fr; gap: 24px 18px; }
  .qa-list { columns: 2; column-gap: 20px; }
  .qa-list li { break-inside: avoid; }
  .background-entry { grid-template-columns: 1fr; gap: 5px; }
